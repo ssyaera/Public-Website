@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Syahirah | Home</title>
-
+    <title>Syahirah | Profile</title>
+    
     <style>
         * {
             margin: 0;
@@ -12,13 +12,13 @@
         }
 
         body {
-            background-color: #eaf7e9;
+            background-color: #eaf7e9; 
             color: #444;
             text-align: center;        
         }
 
         header {
-            background: #ffc5d9;
+            background: #ffc5d9; 
             padding: 20px 60px;
             display: flex;
             justify-content: space-between;
@@ -53,14 +53,23 @@
             margin: auto;
         }
 
-        h1 {
-            font-size: 42px;
+        .content-text h1 {
+            font-size: 48px;
+            font-weight: 700;
             color: #5fa86a;
-            margin-bottom: 20px;
         }
 
-        p {
+        .content-text p {
+            margin-top: 20px;
             line-height: 1.7;
+            color: #444;
+        }
+
+        .content-image img {
+            width: 280px;
+            margin-top: 25px;
+            border-radius: 20px;
+            border: 3px solid #ffc5d9; 
         }
 
         footer {
@@ -71,7 +80,6 @@
             margin-top: 50px;
         }
     </style>
-
 </head>
 
 <body>
@@ -92,11 +100,20 @@
     </header>
 
     <section class="content">
-        <h1>Welcome to My Website</h1>
-        <p>
-            This is the home page of my personal website.  
-            Click on the menu above to explore more about me!
-        </p>
+        <div class="content-text">
+            <h1>Hi, I'm Syahirah</h1>
+
+            <div class="content-image">
+                <img src="Sya_pic.JPG" alt="My Photo">
+            </div>
+
+            <p>
+                Hello! I’m Syahirah, and welcome to my personal corner on the web.  
+                I love exploring new ideas, sharing my experiences, and learning from the world around me.  
+                This page is all about who I am — my passions, my journey, and the little things that make life exciting.  
+                From personal hobbies to professional goals, I hope this page gives you a glimpse into my world.
+            </p>
+        </div>
     </section>
 
     <footer>
@@ -105,3 +122,4 @@
 
 </body>
 </html>
+
